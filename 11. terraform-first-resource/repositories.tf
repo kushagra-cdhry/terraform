@@ -1,6 +1,3 @@
-provider "github" {
-  # token = "Your Github PAT"
-}
 
 resource "github_repository" "terraform-first-repo" {
   name        = "first-repo-from-terraform"
