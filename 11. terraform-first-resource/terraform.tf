@@ -1,5 +1,5 @@
 provider "github" {
-  # token = "Yuor Github PAT"
+  # token = "Your Github PAT"
 }
 
 resource "github_repository" "terraform-first-repo" {
@@ -17,3 +17,6 @@ resource "github_repository" "terraform-second-repo" {
   visibility = "public"
   auto_init = true
 }
+
+# terraform apply --auto-approve
+# terraform destroy --target github_repository.terraform-second-repo
