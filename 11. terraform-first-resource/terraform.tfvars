@@ -1,1 +1,1 @@
-token = "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"
+token = ""
