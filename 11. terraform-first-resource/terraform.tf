@@ -1,5 +1,5 @@
 provider "github" {
-  token = "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"
+  # token = "Yuor Github PAT"
 }
 
 resource "github_repository" "terraform-first-repo" {
