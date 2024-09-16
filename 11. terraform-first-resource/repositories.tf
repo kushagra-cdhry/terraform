@@ -1,9 +1,9 @@
 
 resource "github_repository" "terraform-first-repo" {
-  name        = "first-repo-from-terraform"
+  name = "first-repo-from-terraform"
 
   visibility = "public"
-  auto_init = true
+  auto_init  = true
 }
 
 output "terraform-first-repo-url" {
