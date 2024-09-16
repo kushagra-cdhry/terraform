@@ -19,4 +19,5 @@ resource "github_repository" "terraform-second-repo" {
 }
 
 # terraform apply --auto-approve
+# terraform destroy
 # terraform destroy --target github_repository.terraform-second-repo
